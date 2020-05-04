@@ -1,12 +1,16 @@
 {
+  
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "André Araujo <andre.cristiano1975@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
-  "name": "backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "André Araujo <andre.cristiano1975@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.2"
   }
